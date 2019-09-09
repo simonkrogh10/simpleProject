@@ -1,4 +1,23 @@
+body{
+    margin: 0 auto;
+    font-family: 'Calibri', sans-serif;
+    background-color: rgb(66, 0, 248);
+    color: white;
+}
+
 h1{
     font-family: 'Calibri', sans-serif;
-    font-size: 24px;
+    font-size: 58px;
+}
+
+#main-container{
+    grid-template-columns: repeat(12,1fr);
+    display: grid;
+}
+.text-container{
+    display: inline;
+    grid-column: 4/span 6;
+}
+.paragraph-container{
+    grid-column: 4/span 6;
 }
