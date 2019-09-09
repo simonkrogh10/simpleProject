@@ -1,8 +1,10 @@
 body{
     margin: 0 auto;
     font-family: 'Calibri', sans-serif;
-    background-color: rgb(66, 0, 248);
-    color: white;
+    font-size: 18px;
+
+   
+   
 }
 
 h1{
@@ -15,9 +17,15 @@ h1{
     display: grid;
 }
 .text-container{
-    display: inline;
-    grid-column: 4/span 6;
+    text-align: center;
+    grid-column: span 12;
+    background-color: rgb(42, 42, 214);
+    height: 50vh;
+    color: white;
+    width: 100vw;
 }
 .paragraph-container{
-    grid-column: 4/span 6;
+    grid-column: span 6;
+    padding: 10px 10px;
+    margin: 50px;
 }
